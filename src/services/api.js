@@ -4,7 +4,7 @@ import axios from "axios";
 // USER SERVICE INSTANCE
 // =====================================
 const api = axios.create({
-  baseURL: "https://mkvillage-user-service-env.eba-hkcstuwr.us-east-1.elasticbeanstalk.com/api",
+  baseURL: "http://mkvillage-user-service-env.eba-xpjkkdfy.us-east-1.elasticbeanstalk.com/api",
   headers: {
     "Content-Type": "application/json",
   },
