@@ -14,6 +14,6 @@ export const getUserByMobile = (mobile) =>
   api.get(
     `/internal/users/by-mobile/${encodeURIComponent(mobile)}`,
     {
-      baseURL: "Mkvillage-user-service-env.eba-xpjkkdfy.us-east-1.elasticbeanstalk.com"  // remove /api
+      baseURL: "http://mkvillage-user-service-env.eba-xpjkkdfy.us-east-1.elasticbeanstalk.com"  // remove /api
     }
   );
