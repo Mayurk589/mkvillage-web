@@ -4,7 +4,7 @@ import axios from "axios";
 // USER SERVICE INSTANCE
 // =====================================
 const api = axios.create({
-  baseURL: "http://mkvillage-user-service-env.eba-hkcstuwr.us-east-1.elasticbeanstalk.com/api",
+  baseURL: "https://mkvillage-user-service-env.eba-hkcstuwr.us-east-1.elasticbeanstalk.com/api",
   headers: {
     "Content-Type": "application/json",
   },
@@ -44,7 +44,7 @@ api.interceptors.response.use(
 // DAIRY SERVICE INSTANCE
 // =====================================
 export const dairyApi = axios.create({
-  baseURL: "http://mkvillage-dairy-service-env.eba-x3hmmnph.us-east-1.elasticbeanstalk.com/api",
+  baseURL: "https://mkvillage-dairy-service-env.eba-x3hmmnph.us-east-1.elasticbeanstalk.com/api",
   headers: {
     "Content-Type": "application/json",
   },
